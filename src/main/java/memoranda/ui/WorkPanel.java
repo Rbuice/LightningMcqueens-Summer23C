@@ -151,7 +151,7 @@ public class WorkPanel extends JPanel {
 		notesB.setMaximumSize(new Dimension(60, 80));
 		notesB.setMinimumSize(new Dimension(30, 30));
 		notesB.setOpaque(false);
-		notesB.setPreferredSize(new Dimension(60, 50));
+		notesB.setPreferredSize(new Dimension(60, 80));
 		notesB.setBorderPainted(false);
 		notesB.setContentAreaFilled(false);
 		notesB.setFocusPainted(false);
