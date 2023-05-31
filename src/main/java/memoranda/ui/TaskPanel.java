@@ -120,7 +120,7 @@ public class TaskPanel extends JPanel {
         subTaskB.setEnabled(true);
         subTaskB.setMaximumSize(new Dimension(24, 24));
         subTaskB.setMinimumSize(new Dimension(24, 24));
-        subTaskB.setToolTipText(Local.getString("Add subtask"));
+        subTaskB.setToolTipText(Local.getString("Change 1"));
         subTaskB.setRequestFocusEnabled(false);
         subTaskB.setPreferredSize(new Dimension(24, 24));
         subTaskB.setFocusable(false);
