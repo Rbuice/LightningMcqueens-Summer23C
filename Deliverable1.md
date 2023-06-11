@@ -171,11 +171,14 @@ Answer as a team!
  **What was your main contribution to the Quality Policy documentation?:
 
     - I helped develop our team's GitHub workflow conventions according to the material outlined in Canvas. I also contributed by recording our team's policy once we agreed on our workflow standards.
-   #### Team member C -- replace this with your name:
+   #### Team member Chase Whitehouse
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
-    - link1
-    - link2
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/7
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/6
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/5
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/c41d4fca3627493d42ad8d52336580a3b7d20c06
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/9e8fb447f6e52f2157c24bee05a6355ec46d1c79
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
@@ -204,7 +207,7 @@ Answer as a team!
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
   - [X] Robert Buice
   - [x] Andrea Schoonover
-  - [ ] Team member 3
+  - [x] Chase Whitehouse
 - [x] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
