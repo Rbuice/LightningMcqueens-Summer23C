@@ -145,11 +145,13 @@ Answer as a team!
  **What was your main contribution to the Quality Policy documentation?:
 
     - inf0
-   #### Team member B -- replace this with your name:
+   #### Team member Andrea Schoonover -- replace this with your name:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
-    - link1
-    - link2
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/2
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/9
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/10
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/3  (contributions to team documentation)
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
@@ -168,7 +170,7 @@ Answer as a team!
 
  **What was your main contribution to the Quality Policy documentation?:
 
-    - info
+    - I helped develop our team's GitHub workflow conventions according to the material outlined in Canvas. I also contributed by recording our team's policy once we agreed on our workflow standards.
    #### Team member C -- replace this with your name:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
@@ -197,14 +199,14 @@ Answer as a team!
 ## 4: Checklist for you to see if you are done
 - [ ] Filled out the complete form from above, all fields are filled and written in full sentences
 - [X] Read the kickoff again to make sure you have all the details
-- [] User Stories that were not completed, were left in the Sprint and a copy created
+- [x] User Stories that were not completed, were left in the Sprint and a copy created
 - [X] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
   - [X] Robert Buice
-  - [ ] Team member 2
+  - [x] Andrea Schoonover
   - [ ] Team member 3
-- [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
+- [x] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
-  - [ ] User Stories in your new Sprint Backlog have initial tasks which are in New
+  - [x] User Stories in your new Sprint Backlog have initial tasks which are in New
   - [ ] You know how to proceed
