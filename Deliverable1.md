@@ -56,7 +56,7 @@ I would also advise you to already fill out the Contributions section (End of sp
 
 > Add rows as needed and add the number how many meetings for each team member:
 
-   Robert Bruice : 1/1
+   Robert Buice : 1/1
 
    Chase Whitehouse : 1/1
 
