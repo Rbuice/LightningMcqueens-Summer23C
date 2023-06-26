@@ -5,19 +5,22 @@ body  {
        font-weight: normal;
        margin-left: 0;
        margin-right: 0;
-       color: black}
+       color: red;
+       background-color: #FFDF80}
 
 p   {margin-bottom: 10}
 
 h1  {font-size: xx-large;
 	 font-family: %HEADER_FONT%;
      margin-top: 10;	 
-     margin-bottom: 5}
+     margin-bottom: 5;
+     color: red}
 
 h2 {font-size: x-large;
 	font-family: %HEADER_FONT%;
     margin-top: 8;
-    margin-bottom: 4}
+    margin-bottom: 4;
+    color: red}
 
 h3 {font-size: large;
 	font-family: %HEADER_FONT%;
