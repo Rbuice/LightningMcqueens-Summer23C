@@ -117,10 +117,10 @@ Answer as a team!
 
 > In this section I want you to point me to your main contributions (each of you individually). Some of the topcs are not needed for the first deliverables (you should know which things you should have done in this Sprint, if you don't then you have probably missed something):
 
-#### Team member A -- replace this with your name:
+#### Team member Chase Whitehouse:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
-    - link1
+    - (https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/30a49768af3d231e36189bf1566cf55adc09d9ef)
     - link2
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
@@ -148,7 +148,7 @@ Answer as a team!
 - [ ] User Stories that were not completed, were left in the Sprint and a copy created
 - [ ] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
-  - [ ] Team member 1
+  - [x] Chase Whitehouse
   - [ ] Team member 2
 - [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
