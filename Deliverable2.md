@@ -70,15 +70,15 @@ Answer as a team!
 
 **What do you think is the value you created this Sprint?**
 
-> Your Answer
+> Very little
 
 **Do you think you worked enough and that you did what was expected of you?**
 
-> Your Answer
+> No
 
 **Would you say you met the customers’ expectations? Why, why not?**
 
-> Your Answer
+> No as only two user stories were really completed
 
 
 ### Sprint Retrospective
@@ -87,31 +87,31 @@ Answer as a team!
 
 **Did you meet your sprint goal?**
 
-> Your Answer
+> No
 
 **Did you complete all stories on your Spring Backlog?**
 
-> Your Answer
+> No
 
 **If not, what went wrong?**
 
-> Your Answer
+> We did not work well and timely
 
 **Did you work at a consistent rate of speed, or velocity? (Meaning did you work during the whole Sprint or did you start working when the deadline approached.)**
 
-> Your Answer
+> Started as deadline approached
 
 **Did you deliver business value?**
 
-> Your Answer
+> Somewhat but very little
 
 **Are there things the team thinks it can do better in the next Sprint?**
 
-> Your Answer
+> Start earlier
 
 **How do you feel at this point? Get a pulse on the optimism of the team.**
 
-> Your Answer
+> Not well with the plan being to finish as much as possible for Sprint 3
 
 ### Contributions:
 
@@ -141,6 +141,30 @@ Answer as a team!
  **What was your main contribution to the Quality Policy documentation?:
 
     - info
+#### Team member Robert Buice:
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - (https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/12/commits/3ca77b9cd21b0b96f5a987657c2ad0ea667abf65)
+    - link2
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - info
 
 ## 4: Checklist for you to see if you are done
 - [ ] Filled out the complete form from above, all fields are filled and written in full sentences
@@ -149,7 +173,7 @@ Answer as a team!
 - [ ] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
   - [x] Chase Whitehouse
-  - [ ] Team member 2
+  - [x] Robert Buice
 - [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
