@@ -35,8 +35,8 @@ public class App {
        The actual values are substituted by the Ant build script using 
        'version' property and datestamp.*/
 
-	public static final String VERSION_INFO = "default";
-	public static final String BUILD_INFO = "default";
+	public static final String VERSION_INFO = "1.0.0";
+	public static final String BUILD_INFO = "1";
 	
 	/*========================================================================*/
 
@@ -168,7 +168,7 @@ public class App {
 	private void showSplash() {
 		splash = new JFrame();
 		ImageIcon spl =
-			new ImageIcon(App.class.getResource("/ui/splash.png"));
+			new ImageIcon(App.class.getResource("/ui/realbus.png"));
 		JLabel l = new JLabel();
 		l.setSize(512, 512);
 		l.setIcon(spl);

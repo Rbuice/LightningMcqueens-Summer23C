@@ -17,14 +17,8 @@ Our team is going with the bus schedule topic.
 Document your Sprint Planning here. Also check the kickoff document for more details on what needs to be done. This is just the documentation.
 
 **Sprint Goal:** Your Sprint goal
-<<<<<<< Updated upstream
-We want to complete tasks that help us get familiar with the software and its functionality. Our user stories for this sprint focus on fixing small errors and modify the splash screen design to fit our topic.
-=======
-<<<<<<< Updated upstream
-=======
+
 We want to complete tasks that help us get familiar with the software and its functionality. Our user stories for this sprint focus on fixing small errors and modify the splash screen design to fit our topic. There are minor but impactful changes that would improve the user experience while someone is interacting with our software.
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
 **How many User Stories did you add to the Product Backlog:**  3
 
@@ -33,28 +27,12 @@ We want to complete tasks that help us get familiar with the software and its fu
 
 **Why did you add these US, why do you think you can get them done in the next Sprint?**
 
-<<<<<<< Updated upstream
-> We chose to add 
-
-**Why do you think these fit well with your Sprint goal? (details)**
-
 > These fit well with our Sprint goal
-=======
-<<<<<<< Updated upstream
-> Your Answer
+
 
 **Why do you think these fit well with your Sprint goal? (details)**
-
-> Your Answer
-=======
 > We chose to add these US because the team deemed them to be an important focus of improvement. When discussing the future functionality and look of the software, we decided these user stories would become blocks if we did not make them a higher priority. We have chunked the US into manageable tasks with practical scopes for our first Sprint.
 
-**Why do you think these fit well with your Sprint goal? (details)**
-
-> These fit well with our Sprint goal because we want to start building out the software for our project topic. These US allow us to explore the software in the state we have received it
- while also improving the user's experience.
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
 **Do you have a rough idea what you need to do? (if the answer is no then please let me know on Slack)**
 
@@ -78,7 +56,7 @@ I would also advise you to already fill out the Contributions section (End of sp
 
 > Add rows as needed and add the number how many meetings for each team member:
 
-   Robert Bruice : 1/1
+   Robert Buice : 1/1
 
    Chase Whitehouse : 1/1
 
@@ -90,7 +68,7 @@ I would also advise you to already fill out the Contributions section (End of sp
 ### Sprint Review
 Answer as a team!
 
-**Screen Cast link**: Your link
+**Screen Cast link**: https://youtu.be/vOHFeALWyv4
 
 > Answer the following questions as a team.
 
@@ -143,11 +121,64 @@ Answer as a team!
 
 > In this section I want you to point me to your main contributions (each of you individually). Some of the topcs are not needed for the first deliverables (you should know which things you should have done in this Sprint, if you don't then you have probably missed something):
 
-#### Team member A -- replace this with your name:
+#### Team member Robert Buice:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - link1 https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/1
+    - link2 https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/4
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
     - link1
     - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - inf0
+   #### Team member Andrea Schoonover -- replace this with your name:
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/2
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/9
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/10
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/3  (contributions to team documentation)
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - I helped develop our team's GitHub workflow conventions according to the material outlined in Canvas. I also contributed by recording our team's policy once we agreed on our workflow standards.
+   #### Team member Chase Whitehouse
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/7
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/6
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/5
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/c41d4fca3627493d42ad8d52336580a3b7d20c06
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/9e8fb447f6e52f2157c24bee05a6355ec46d1c79
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
@@ -170,14 +201,15 @@ Answer as a team!
 
 ## 4: Checklist for you to see if you are done
 - [ ] Filled out the complete form from above, all fields are filled and written in full sentences
-- [ ] Read the kickoff again to make sure you have all the details
-- [ ] User Stories that were not completed, were left in the Sprint and a copy created
-- [ ] Your Quality Policies are accurate and up to date
+- [X] Read the kickoff again to make sure you have all the details
+- [x] User Stories that were not completed, were left in the Sprint and a copy created
+- [X] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
-  - [ ] Team member 1
-  - [ ] Team member 2
-- [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
+  - [X] Robert Buice
+  - [x] Andrea Schoonover
+  - [x] Chase Whitehouse
+- [x] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
-  - [ ] User Stories in your new Sprint Backlog have initial tasks which are in New
+  - [x] User Stories in your new Sprint Backlog have initial tasks which are in New
   - [ ] You know how to proceed
