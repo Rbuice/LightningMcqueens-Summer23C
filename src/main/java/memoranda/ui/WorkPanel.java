@@ -69,11 +69,11 @@ public class WorkPanel extends JPanel {
 		panel.setLayout(cardLayout1);
 
 		agendaB.setBackground(Color.white);
-		agendaB.setMaximumSize(new Dimension(60, 80));
+		agendaB.setMaximumSize(new Dimension(150, 100));
 		agendaB.setMinimumSize(new Dimension(30, 30));
 
 		agendaB.setFont(new java.awt.Font("Dialog", 1, 10));
-		agendaB.setPreferredSize(new Dimension(50, 50));
+		agendaB.setPreferredSize(new Dimension(150, 100));
 		agendaB.setBorderPainted(false);
 		agendaB.setContentAreaFilled(false);
 		agendaB.setFocusPainted(false);
@@ -95,11 +95,11 @@ public class WorkPanel extends JPanel {
 		agendaB.setSelected(true);
 
 		eventsB.setBackground(Color.white);
-		eventsB.setMaximumSize(new Dimension(60, 80));
+		eventsB.setMaximumSize(new Dimension(150, 100));
 		eventsB.setMinimumSize(new Dimension(30, 30));
 
 		eventsB.setFont(new java.awt.Font("Dialog", 1, 10));
-		eventsB.setPreferredSize(new Dimension(50, 50));
+		eventsB.setPreferredSize(new Dimension(150, 100));
 		eventsB.setBorderPainted(false);
 		eventsB.setContentAreaFilled(false);
 		eventsB.setFocusPainted(false);
@@ -139,24 +139,24 @@ public class WorkPanel extends JPanel {
 		tasksB.setFocusPainted(false);
 		tasksB.setBorderPainted(false);
 		tasksB.setContentAreaFilled(false);
-		tasksB.setPreferredSize(new Dimension(50, 50));
+		tasksB.setPreferredSize(new Dimension(150, 100));
 		tasksB.setMinimumSize(new Dimension(30, 30));
 		tasksB.setOpaque(false);
-		tasksB.setMaximumSize(new Dimension(60, 80));
+		tasksB.setMaximumSize(new Dimension(150, 100));
 		tasksB.setBackground(Color.white);
 
 		notesB.setFont(new java.awt.Font("Dialog", 1, 10));
 		notesB.setBackground(Color.white);
 		notesB.setBorder(null);
-		notesB.setMaximumSize(new Dimension(60, 80));
+		notesB.setMaximumSize(new Dimension(150, 100));
 		notesB.setMinimumSize(new Dimension(30, 30));
 		notesB.setOpaque(false);
-		notesB.setPreferredSize(new Dimension(60, 50));
+		notesB.setPreferredSize(new Dimension(150, 100));
 		notesB.setBorderPainted(false);
 		notesB.setContentAreaFilled(false);
 		notesB.setFocusPainted(false);
 		notesB.setHorizontalTextPosition(SwingConstants.CENTER);
-		notesB.setText(Local.getString("Notes"));
+		notesB.setText(Local.getString("Notes (Remove)"));
 		notesB.setVerticalAlignment(SwingConstants.TOP);
 		notesB.setVerticalTextPosition(SwingConstants.BOTTOM);
 		notesB.addActionListener(new java.awt.event.ActionListener() {
@@ -191,10 +191,10 @@ public class WorkPanel extends JPanel {
 		filesB.setFocusPainted(false);
 		filesB.setBorderPainted(false);
 		filesB.setContentAreaFilled(false);
-		filesB.setPreferredSize(new Dimension(50, 50));
+		filesB.setPreferredSize(new Dimension(150, 100));
 		filesB.setMinimumSize(new Dimension(30, 30));
 		filesB.setOpaque(false);
-		filesB.setMaximumSize(new Dimension(60, 80));
+		filesB.setMaximumSize(new Dimension(150, 100));
 		filesB.setBackground(Color.white);
 		this.add(toolBar, BorderLayout.WEST);
 		this.add(panel, BorderLayout.CENTER);
