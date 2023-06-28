@@ -78,7 +78,7 @@ public class WorkPanel extends JPanel {
 		agendaB.setContentAreaFilled(false);
 		agendaB.setFocusPainted(false);
 		agendaB.setHorizontalTextPosition(SwingConstants.CENTER);
-		agendaB.setText(Local.getString("Agenda (Convert to Bus Schedule))"));
+		agendaB.setText(Local.getString("Schedule"));
 		agendaB.setVerticalAlignment(SwingConstants.TOP);
 		agendaB.setVerticalTextPosition(SwingConstants.BOTTOM);
 		agendaB.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class WorkPanel extends JPanel {
 		agendaB.setIcon(
 			new ImageIcon(
 				main.java.memoranda.ui.AppFrame.class.getResource(
-					"/ui/icons/agenda.png")));
+					"/ui/icons/bus.jpg")));
 		agendaB.setOpaque(false);
 		agendaB.setMargin(new Insets(0, 0, 0, 0));
 		agendaB.setSelected(true);
@@ -104,7 +104,7 @@ public class WorkPanel extends JPanel {
 		eventsB.setContentAreaFilled(false);
 		eventsB.setFocusPainted(false);
 		eventsB.setHorizontalTextPosition(SwingConstants.CENTER);
-		eventsB.setText(Local.getString("Events (Convert to routes)"));
+		eventsB.setText(Local.getString("Routes"));
 		eventsB.setVerticalAlignment(SwingConstants.TOP);
 		eventsB.setVerticalTextPosition(SwingConstants.BOTTOM);
 		eventsB.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +115,7 @@ public class WorkPanel extends JPanel {
 		eventsB.setIcon(
 			new ImageIcon(
 				main.java.memoranda.ui.AppFrame.class.getResource(
-					"/ui/icons/events.png")));
+					"/ui/icons/route.jpg")));
 		eventsB.setOpaque(false);
 		eventsB.setMargin(new Insets(0, 0, 0, 0));
 		//eventsB.setSelected(true);
@@ -126,7 +126,7 @@ public class WorkPanel extends JPanel {
 		tasksB.setIcon(
 			new ImageIcon(
 				main.java.memoranda.ui.AppFrame.class.getResource(
-					"/ui/icons/tasks.png")));
+					"/ui/icons/driver.jpg")));
 		tasksB.setVerticalTextPosition(SwingConstants.BOTTOM);
 		tasksB.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -134,7 +134,7 @@ public class WorkPanel extends JPanel {
 			}
 		});
 		tasksB.setVerticalAlignment(SwingConstants.TOP);
-		tasksB.setText(Local.getString("Tasks (Convert to Driver and Bus register/display)"));
+		tasksB.setText(Local.getString("Drivers"));
 		tasksB.setHorizontalTextPosition(SwingConstants.CENTER);
 		tasksB.setFocusPainted(false);
 		tasksB.setBorderPainted(false);
@@ -167,7 +167,7 @@ public class WorkPanel extends JPanel {
 		notesB.setIcon(
 			new ImageIcon(
 				main.java.memoranda.ui.AppFrame.class.getResource(
-					"/ui/icons/notes.png")));
+					"/ui/icons/newnotes.jpg")));
 		notesB.setMargin(new Insets(0, 0, 0, 0));
 		notesB.setSelected(true);
 		this.setPreferredSize(new Dimension(1073, 300));
@@ -177,7 +177,7 @@ public class WorkPanel extends JPanel {
 		filesB.setIcon(
 			new ImageIcon(
 				main.java.memoranda.ui.AppFrame.class.getResource(
-					"/ui/icons/files.png")));
+					"/ui/icons/newfiles.jpg")));
 		filesB.setVerticalTextPosition(SwingConstants.BOTTOM);
 		filesB.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(ActionEvent e) {
