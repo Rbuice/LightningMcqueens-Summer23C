@@ -3,40 +3,36 @@
 
 ## 1: Basic Information (needed before you start with your Sprint -- Sprint Planning)
 
-**Topic you chose:**
+**Topic you chose:** Bus Route
 
-Our team is going with the bus schedule topic.
+**Sprint Number:** 2
 
-**Sprint Number:** 1
+**Scrum Master**: Andrea Schooner
 
-**Scrum Master**: Chase Whitehouse
-
-**Git Master**: Andrea Schoonover
+**Git Master**: Robert Buice
 
 ### Sprint Planning (For Sprint 1-3)
 Document your Sprint Planning here. Also check the kickoff document for more details on what needs to be done. This is just the documentation.
 
-**Sprint Goal:** Your Sprint goal
+**Sprint Goal:** For this sprint we plan to get the basic foundations of our topic implemented then progress from there.
 
-We want to complete tasks that help us get familiar with the software and its functionality. Our user stories for this sprint focus on fixing small errors and modify the splash screen design to fit our topic. There are minor but impactful changes that would improve the user experience while someone is interacting with our software.
+**How many User Stories did you add to the Product Backlog:**  7
 
-**How many User Stories did you add to the Product Backlog:**  3
-
-**How many User Stories did you add to this Sprint:** 2
-> We added two new User Stories to the first sprint.
+**How many User Stories did you add to this Sprint:**
+> 9
 
 **Why did you add these US, why do you think you can get them done in the next Sprint?**
 
-> These fit well with our Sprint goal
-
+> These are basic foundations and left over US from sprint 1
 
 **Why do you think these fit well with your Sprint goal? (details)**
-> We chose to add these US because the team deemed them to be an important focus of improvement. When discussing the future functionality and look of the software, we decided these user stories would become blocks if we did not make them a higher priority. We have chunked the US into manageable tasks with practical scopes for our first Sprint.
 
+> Yes as we need the basic foundation for the bus scheduler implemented before the more advanced parts can be added.
 
 **Do you have a rough idea what you need to do? (if the answer is no then please let me know on Slack)**
 
 > Yes
+
 
 
 ## 2: During the Sprint
@@ -48,7 +44,7 @@ I would also advise you to already fill out the Contributions section (End of sp
 
 | Date  | Who did not attend  |Meeting notes (very brief)   | Burndown Info (on track, ahead behind is enough) | TravisCI info (does the master pass) | Additional Info  |
 |---|---|---|---|--|--|
-|  5/29 |  n/a |  Sprint 1 planning, created user stories and ensured each team member had a clear understanding of their tasks | beginning of sprint, but on track | x | x |
+| 6/19  |   | Sprint planning for sprint 2, Robert and Chase added US during the meeting and Andrea is addng US offline  | on track  |  |  |
 |   |   |   |   |  |  |
 |   |   |   |   |  |  |
 
@@ -56,11 +52,11 @@ I would also advise you to already fill out the Contributions section (End of sp
 
 > Add rows as needed and add the number how many meetings for each team member:
 
-   Robert Buice : 1/1
+   Robert : 1/1
 
-   Chase Whitehouse : 1/1
+   Chase : 1/1
 
-   Andrea Schoonover : 1/1
+   Andrea : 0/1
 
 
 ## 3: After the Sprint
@@ -68,21 +64,21 @@ I would also advise you to already fill out the Contributions section (End of sp
 ### Sprint Review
 Answer as a team!
 
-**Screen Cast link**: https://youtu.be/vOHFeALWyv4
+**Screen Cast link**: Your link
 
 > Answer the following questions as a team.
 
 **What do you think is the value you created this Sprint?**
 
-> Your Answer
+> Very little
 
 **Do you think you worked enough and that you did what was expected of you?**
 
-> Your Answer
+> No
 
 **Would you say you met the customers’ expectations? Why, why not?**
 
-> Your Answer
+> No as only two user stories were really completed
 
 
 ### Sprint Retrospective
@@ -91,94 +87,65 @@ Answer as a team!
 
 **Did you meet your sprint goal?**
 
-> Your Answer
+> No
 
 **Did you complete all stories on your Spring Backlog?**
 
-> Your Answer
+> No
 
 **If not, what went wrong?**
 
-> Your Answer
+> We did not work well and timely
 
 **Did you work at a consistent rate of speed, or velocity? (Meaning did you work during the whole Sprint or did you start working when the deadline approached.)**
 
-> Your Answer
+> Started as deadline approached
 
 **Did you deliver business value?**
 
-> Your Answer
+> Somewhat but very little
 
 **Are there things the team thinks it can do better in the next Sprint?**
 
-> Your Answer
+> Start earlier
 
 **How do you feel at this point? Get a pulse on the optimism of the team.**
 
-> Your Answer
+> Not well with the plan being to finish as much as possible for Sprint 3
 
 ### Contributions:
 
 > In this section I want you to point me to your main contributions (each of you individually). Some of the topcs are not needed for the first deliverables (you should know which things you should have done in this Sprint, if you don't then you have probably missed something):
 
+#### Team member Chase Whitehouse:
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - (https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/30a49768af3d231e36189bf1566cf55adc09d9ef)
+    - link2
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - info
 #### Team member Robert Buice:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
-    - link1 https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/1
-    - link2 https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/4
-
-   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
-
-    - link1
+    - (https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/12/commits/3ca77b9cd21b0b96f5a987657c2ad0ea667abf65)
     - link2
-
-  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
-
-    - link1
-    - link2
-
-  **How did you contribute to Static Analysis -- Sprint 3:
-
-    - link1
-    - link2
-
- **What was your main contribution to the Quality Policy documentation?:
-
-    - inf0
-   #### Team member Andrea Schoonover -- replace this with your name:
-  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
-
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/2
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/9
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/10
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/3  (contributions to team documentation)
-
-   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
-
-    - link1
-    - link2
-
-  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
-
-    - link1
-    - link2
-
-  **How did you contribute to Static Analysis -- Sprint 3:
-
-    - link1
-    - link2
-
- **What was your main contribution to the Quality Policy documentation?:
-
-    - I helped develop our team's GitHub workflow conventions according to the material outlined in Canvas. I also contributed by recording our team's policy once we agreed on our workflow standards.
-   #### Team member Chase Whitehouse
-  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
-
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/7
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/6
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/5
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/c41d4fca3627493d42ad8d52336580a3b7d20c06
-    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/9e8fb447f6e52f2157c24bee05a6355ec46d1c79
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
@@ -201,15 +168,14 @@ Answer as a team!
 
 ## 4: Checklist for you to see if you are done
 - [ ] Filled out the complete form from above, all fields are filled and written in full sentences
-- [X] Read the kickoff again to make sure you have all the details
-- [x] User Stories that were not completed, were left in the Sprint and a copy created
-- [X] Your Quality Policies are accurate and up to date
+- [ ] Read the kickoff again to make sure you have all the details
+- [ ] User Stories that were not completed, were left in the Sprint and a copy created
+- [ ] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
-  - [X] Robert Buice
-  - [x] Andrea Schoonover
   - [x] Chase Whitehouse
-- [x] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
+  - [x] Robert Buice
+- [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
-  - [x] User Stories in your new Sprint Backlog have initial tasks which are in New
+  - [ ] User Stories in your new Sprint Backlog have initial tasks which are in New
   - [ ] You know how to proceed
