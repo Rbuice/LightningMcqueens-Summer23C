@@ -7,31 +7,31 @@
 
 **Sprint Number:** 3
 
-**Scrum Master**: Name
+**Scrum Master**: Robert Buice
 
-**Git Master**: Name
+**Git Master**: Chase Whitehouse
 
 ### Sprint Planning (For Sprint 1-3)
 Document your Sprint Planning here. Also check the kickoff document for more details on what needs to be done. This is just the documentation. 
 
-**Sprint Goal:** Your Sprint goal
+**Sprint Goal:** Finish up remaining User Stories to get a basic version ready
 
-**How many User Stories did you add to the Product Backlog:**  Number
+**How many User Stories did you add to the Product Backlog:**  0
 
 **How many User Stories did you add to this Sprint:** 
-> Answer the questions below about your Sprint Planning?
+> 3 plus the unfinished 6 from last sprint
 
 **Why did you add these US, why do you think you can get them done in the next Sprint?**
 
-> Your Answer
+>  The have some important parts to the basic working project
 
 **Why do you think these fit well with your Sprint goal? (details)**
 
-> Your Answer
+> If all user stories are finished a basic working project will be there
 
 **Do you have a rough idea what you need to do? (if the answer is no then please let me know on Slack)**
 
-> Your Answer
+> Yes
 
 
 
