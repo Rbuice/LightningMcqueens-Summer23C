@@ -43,6 +43,7 @@ import main.java.memoranda.util.Configuration;
 import main.java.memoranda.util.CurrentStorage;
 import main.java.memoranda.util.Local;
 import main.java.memoranda.util.Util;
+import java.lang.Math;
 /*$Id: EventsPanel.java,v 1.25 2005/02/19 10:06:25 rawsushi Exp $*/
 public class EventsPanel extends JPanel {
     JSONObject[] ob;
@@ -77,6 +78,8 @@ public class EventsPanel extends JPanel {
         
         ob = jsonreader("testnode.txt", 1);
         System.out.println(ob[0].get("longitude") + " this is test of JSONReading in Events Panel");
+        String test = routecalc(ob);
+        System.out.println(test);
         historyBackB.setAction(History.historyBackAction);
         historyBackB.setFocusable(false);
         historyBackB.setBorderPainted(false);
@@ -450,7 +453,20 @@ public class EventsPanel extends JPanel {
         return ans;
     }
     public String routecalc(JSONObject[] points) {
-        String ans = "";
+        String ans = "0";
+        for(int i = 0; i < points.length; i++) {
+            int current = i;
+            for(int j = i+1; j < points.length; j++) {
+                
+                double great = 0;
+                double test = Math.sqrt(Integer.valueOf(points[j].getString("longitude"))-Integer.valueOf(points[current].getString("longitude"))+Integer.valueOf(points[j].getString("latitude"))-Integer.valueOf(points[current].getString("latitude")));
+                if(great < test) {
+                    great = test;
+                    current = j;
+                }
+            }
+            ans = ans + current;
+        }
         return ans;
     }
     class PopupListener extends MouseAdapter {
