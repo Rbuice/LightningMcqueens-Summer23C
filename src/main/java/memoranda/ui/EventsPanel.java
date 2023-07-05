@@ -9,7 +9,10 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -27,6 +30,8 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
 import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import main.java.memoranda.EventsManager;
 import main.java.memoranda.EventsScheduler;
@@ -38,9 +43,9 @@ import main.java.memoranda.util.Configuration;
 import main.java.memoranda.util.CurrentStorage;
 import main.java.memoranda.util.Local;
 import main.java.memoranda.util.Util;
-
 /*$Id: EventsPanel.java,v 1.25 2005/02/19 10:06:25 rawsushi Exp $*/
 public class EventsPanel extends JPanel {
+    JSONObject[] ob;
     JSONArray routes = new JSONArray();
     JLabel testdisplay = new JLabel();
     BorderLayout borderLayout1 = new BorderLayout();
@@ -70,6 +75,8 @@ public class EventsPanel extends JPanel {
     void jbInit() throws Exception {
         eventsToolBar.setFloatable(false);
         
+        ob = jsonreader("testnode.txt", 1);
+        System.out.println(ob[0].get("longitude") + " this is test of JSONReading in Events Panel");
         historyBackB.setAction(History.historyBackAction);
         historyBackB.setFocusable(false);
         historyBackB.setBorderPainted(false);
@@ -433,7 +440,19 @@ public class EventsPanel extends JPanel {
         parentPanel.updateIndicators();
 */ saveEvents();  
   }
-
+    public JSONObject[] jsonreader(String file, int numoflines) throws JSONException, IOException {
+        File read = new File(file);
+        BufferedReader reader = new BufferedReader(new FileReader(read));
+        JSONObject[] ans = new JSONObject[numoflines];
+        for(int i = 0; i < numoflines; i++) {
+            JSONObject ob = new JSONObject(reader.readLine());
+        }
+        return ans;
+    }
+    public String routecalc(JSONObject[] points) {
+        String ans = "";
+        return ans;
+    }
     class PopupListener extends MouseAdapter {
 
         public void mouseClicked(MouseEvent e) {

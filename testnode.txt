@@ -1,0 +1,1 @@
+{"longitude" : "20", "latitude" : "20"}
