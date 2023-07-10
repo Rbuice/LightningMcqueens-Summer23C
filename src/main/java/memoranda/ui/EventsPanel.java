@@ -9,12 +9,17 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -23,6 +28,10 @@ import javax.swing.JScrollPane;
 import javax.swing.JToolBar;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import main.java.memoranda.EventsManager;
 import main.java.memoranda.EventsScheduler;
@@ -34,9 +43,12 @@ import main.java.memoranda.util.Configuration;
 import main.java.memoranda.util.CurrentStorage;
 import main.java.memoranda.util.Local;
 import main.java.memoranda.util.Util;
-
+import java.lang.Math;
 /*$Id: EventsPanel.java,v 1.25 2005/02/19 10:06:25 rawsushi Exp $*/
 public class EventsPanel extends JPanel {
+    JSONObject[] ob;
+    JSONArray routes = new JSONArray();
+    JLabel testdisplay = new JLabel();
     BorderLayout borderLayout1 = new BorderLayout();
     JButton historyBackB = new JButton();
     JToolBar eventsToolBar = new JToolBar();
@@ -63,7 +75,11 @@ public class EventsPanel extends JPanel {
     }
     void jbInit() throws Exception {
         eventsToolBar.setFloatable(false);
-
+        
+        ob = jsonreader("testnode.txt", 1);
+        System.out.println(ob[0].get("longitude") + " this is test of JSONReading in Events Panel");
+        String test = routecalc(ob);
+        System.out.println(test);
         historyBackB.setAction(History.historyBackAction);
         historyBackB.setFocusable(false);
         historyBackB.setBorderPainted(false);
@@ -427,7 +443,32 @@ public class EventsPanel extends JPanel {
         parentPanel.updateIndicators();
 */ saveEvents();  
   }
-
+    public JSONObject[] jsonreader(String file, int numoflines) throws JSONException, IOException {
+        File read = new File(file);
+        BufferedReader reader = new BufferedReader(new FileReader(read));
+        JSONObject[] ans = new JSONObject[numoflines];
+        for(int i = 0; i < numoflines; i++) {
+            JSONObject ob = new JSONObject(reader.readLine());
+        }
+        return ans;
+    }
+    public String routecalc(JSONObject[] points) {
+        String ans = "0";
+        for(int i = 0; i < points.length; i++) {
+            int current = i;
+            for(int j = i+1; j < points.length; j++) {
+                
+                double great = 0;
+                double test = Math.sqrt(Integer.valueOf(points[j].getString("longitude"))-Integer.valueOf(points[current].getString("longitude"))+Integer.valueOf(points[j].getString("latitude"))-Integer.valueOf(points[current].getString("latitude")));
+                if(great < test) {
+                    great = test;
+                    current = j;
+                }
+            }
+            ans = ans + current;
+        }
+        return ans;
+    }
     class PopupListener extends MouseAdapter {
 
         public void mouseClicked(MouseEvent e) {
