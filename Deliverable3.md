@@ -68,15 +68,15 @@ Answer as a team!
 
 **What do you think is the value you created this Sprint?**
 
-> Your Answer
+> Add more towards the basic foundation of the Bus Scheduler
 
 **Do you think you worked enough and that you did what was expected of you?**
 
-> Your Answer
+> No as a basic framework was not established
 
 **Would you say you met the customers’ expectations? Why, why not?**
 
-> Your Answer
+> No as a basic framework was not established
 
 
 ### Sprint Retrospective
@@ -85,37 +85,81 @@ Answer as a team!
 
 **Did you meet your sprint goal?**
 
-> Your Answer
+> No as not all userstories were finished
 
 **Did you complete all stories on your Spring Backlog?**
 
-> Your Answer
+> No
 
 **If not, what went wrong?**
 
-> Your Answer
+> Time was put towards final assignment and final exam
 
 **Did you work at a consistent rate of speed, or velocity? (Meaning did you work during the whole Sprint or did you start working when the deadline approached.)**
 
-> Your Answer
+> A single burst
 
 **Did you deliver business value?**
 
-> Your Answer
+> No
 
-**Are there things the team thinks it can do better in the next Sprint?**
-
-> Your Answer
-
-**How do you feel at this point? Get a pulse on the optimism of the team.**
-
-> Your Answer
 
 ### Contributions:
 
 > In this section I want you to point me to your main contributions (each of you individually). Some of the topcs are not needed for the first deliverables (you should know which things you should have done in this Sprint, if you don't then you have probably missed something):
 
-#### Team member A -- replace this with your name:
+#### Robert Buice -- replace this with your name:
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/14/commits/1200c59643f5d8a7aad9f994f0409065bfc3db45
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/14/commits/0f090ce659f7be058c6aec105bd27d19f8b17bbe
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/14/commits/962b07a178c96ea297717c732eab847be5c15fe8
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+ 
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - info
+    
+   #### Chase Whitehouse -- replace this with your name:
+  **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
+
+    - link1
+    - link2
+
+   **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **GitHub links to your Code Reviews (up to 3 links) -- Sprint 2 and 3:
+
+    - link1
+    - link2
+
+  **How did you contribute to Static Analysis -- Sprint 3:
+
+    - link1
+    - link2
+ 
+ **What was your main contribution to the Quality Policy documentation?:
+
+    - info
+    
+   #### Andrea Schoonover -- replace this with your name:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
     - link1
