@@ -1,1 +1,4 @@
-{"longitude" : "20", "latitude" : "20"}
+{"longitude" : "272", "latitude" : "62"}
+{"longitude" : "180", "latitude" : "62"}
+{"longitude" : "120", "latitude" : "73"}
+{"longitude" : "46", "latitude" : "92"}

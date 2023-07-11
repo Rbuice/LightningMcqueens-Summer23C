@@ -3,6 +3,7 @@ package main.java.memoranda.ui;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
@@ -20,6 +21,7 @@ import java.util.GregorianCalendar;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JLayeredPane;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -63,11 +65,13 @@ public class EventsPanel extends JPanel {
     JMenuItem ppRemoveEvent = new JMenuItem();
     JMenuItem ppNewEvent = new JMenuItem();
     DailyItemsPanel parentPanel = null;
+    JLabel mapLabel = new JLabel();
 
     public EventsPanel(DailyItemsPanel _parentPanel) {
         try {
             parentPanel = _parentPanel;
             jbInit();
+            displayMap();
         }
         catch (Exception ex) {
             new ExceptionDialog(ex);
@@ -76,8 +80,13 @@ public class EventsPanel extends JPanel {
     void jbInit() throws Exception {
         eventsToolBar.setFloatable(false);
         
-        ob = jsonreader("testnode.txt", 1);
-        System.out.println(ob[0].get("longitude") + " this is test of JSONReading in Events Panel");
+        this.add(mapLabel, BorderLayout.CENTER);
+        
+        ob = jsonreader("testnode.txt", 4);
+        for (int i = 0; i < ob.length; i++) {
+            System.out.println(ob[i].get("longitude") + " this is test of JSONReading in Events Panel");
+            System.out.println(ob[i].get("latitude") + " this is test of JSONReading in Events Panel");
+        }
         String test = routecalc(ob);
         System.out.println(test);
         historyBackB.setAction(History.historyBackAction);
@@ -181,8 +190,6 @@ public class EventsPanel extends JPanel {
         });
         ppNewEvent.setIcon(
             new ImageIcon(main.java.memoranda.ui.AppFrame.class.getResource("/ui/icons/event_new.png")));
-        scrollPane.getViewport().add(eventsTable, null);
-        this.add(scrollPane, BorderLayout.CENTER);
         eventsToolBar.add(historyBackB, null);
         eventsToolBar.add(historyForwardB, null);
         eventsToolBar.addSeparator(new Dimension(8, 24));
@@ -239,6 +246,73 @@ public class EventsPanel extends JPanel {
 		});
     }
 
+    
+    
+    
+    
+    void displayMap() {
+        ImageIcon map = new ImageIcon(App.class.getResource("/ui/asumap.png"));
+        mapLabel.setIcon(map);
+        mapLabel.setHorizontalAlignment(JLabel.CENTER);
+        mapLabel.setVerticalAlignment(JLabel.CENTER);
+
+        scrollPane.getViewport().setViewPosition(new Point(0, 0));
+
+        JLayeredPane layeredPane = new JLayeredPane();
+        layeredPane.setPreferredSize(new Dimension(map.getIconWidth(), map.getIconHeight()));
+
+        // Set the positions and sizes of the components
+        mapLabel.setBounds(0, 0, map.getIconWidth(), map.getIconHeight());
+        scrollPane.setBounds(0, 0, map.getIconWidth(), map.getIconHeight());
+
+        // Add the components to the layered pane
+        layeredPane.add(mapLabel, JLayeredPane.DEFAULT_LAYER); // Add the map label to the default layer
+
+        addStops(layeredPane); // Add the circles to the layered pane
+
+        // Add the layered pane to the scroll pane
+        scrollPane.getViewport().add(layeredPane);
+
+        // Add the scroll pane to the EventsPanel
+        this.add(scrollPane, BorderLayout.CENTER);
+    }
+
+    void addStops(JLayeredPane layeredPane) {
+        ImageIcon mapIcon = (ImageIcon) mapLabel.getIcon();
+        int mapWidth = mapIcon.getIconWidth();
+        int mapHeight = mapIcon.getIconHeight();
+
+        for (int i = 0; i < ob.length; i++) {
+            int longitude = ob[i].getInt("longitude");
+            int latitude = ob[i].getInt("latitude");
+
+            // Convert longitude and latitude to pixel values based on your UI scaling logic
+            int x = (int) (longitude * mapWidth / 360);  // Assuming longitude ranges from -180 to 180
+            int y = (int) (latitude * mapHeight / 180);  // Assuming latitude ranges from -90 to 90
+
+            // Adjust the radius as needed
+            int radius = 10;
+
+            JPanel redCircle = new JPanel() {
+                @Override
+                protected void paintComponent(Graphics g) {
+                    super.paintComponent(g);
+                    g.setColor(Color.RED);
+                    g.fillOval(0, 0, radius * 2, radius * 2);
+                }
+            };
+            redCircle.setPreferredSize(new Dimension(radius * 2, radius * 2));
+            redCircle.setBounds(x, y, radius * 2, radius * 2);
+            redCircle.setOpaque(false);
+            
+            layeredPane.add(redCircle, JLayeredPane.PALETTE_LAYER); // Add the circle to the palette layer
+        }
+    }
+
+    
+    
+    
+    
     void editEventB_actionPerformed(ActionEvent e) {
         EventDialog dlg = new EventDialog(App.getFrame(), Local.getString("Event"));
         main.java.memoranda.Event ev =
@@ -449,6 +523,7 @@ public class EventsPanel extends JPanel {
         JSONObject[] ans = new JSONObject[numoflines];
         for(int i = 0; i < numoflines; i++) {
             JSONObject ob = new JSONObject(reader.readLine());
+            ans[i] = ob;
         }
         return ans;
     }
