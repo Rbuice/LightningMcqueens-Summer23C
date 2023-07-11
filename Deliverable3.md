@@ -137,8 +137,9 @@ Answer as a team!
    #### Chase Whitehouse -- replace this with your name:
   **Links to GitHub commits with main code contribution (up to 5 links) - all Sprints:
 
-    - link1
-    - link2
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/pull/15
+    - https://github.com/Rbuice/LightningMcqueens-Summer23C/commit/e4ea4f30cd5b0fba6ce44a8cd55d25b674d07fe1
+    
 
    **GitHub links to your Unit Tests (up to 3 links) -- Sprint 2 and 3:
 
@@ -190,8 +191,9 @@ Answer as a team!
 - [ ] User Stories that were not completed, were left in the Sprint and a copy created
 - [ ] Your Quality Policies are accurate and up to date
 - [ ] **Individual** Survey was submitted **individually** (create checkboxes below -- see Canvas to get link)
-  - [ ] Team member 1
-  - [ ] Team member 2
+  - [x] Chase Whitehouse
+  - [ ] Robert Buice
+  - [ ] Andrea Schoonover
 - [ ] The original of this file was copied for the next Sprint (needed for all but last Sprint where you do not need to copy it anymore)
   - [ ] Basic information (part 1) for next Sprint was included (meaning Spring Planning is complete)
   - [ ] All User Stories have acceptance tests
